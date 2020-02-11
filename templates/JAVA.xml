@@ -1,0 +1,8 @@
+<templateSet group="JAVA">
+  <template name="tnr" value="throw new ResponseException(&quot;$value$&quot;);" description="throw new ResponseExecption();" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
