@@ -5,7 +5,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="prr" value="@PostMapping(&quot;$value1$&quot;)&#10;@ResponseWrapper&#10;public Object $value2$($end$) {&#10;    return true;&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="prr" value="@PostMapping(&quot;$value1$&quot;)&#10;@ResponseWrapper&#10;public Object $value2$($end$) {&#10;    return true;&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="value1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="value2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
@@ -13,7 +13,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="grr" value="@GetMapping(&quot;$value1$&quot;)&#10;@ResponseWrapper&#10;public Object $value2$() {&#10;    return true;&#10;}&#10;$end$" toReformat="false" toShortenFQNames="true">
+  <template name="grr" value="@GetMapping(&quot;$value1$&quot;)&#10;@ResponseWrapper&#10;public Object $value2$() {&#10;    return true;&#10;}&#10;$end$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="value1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="value2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
